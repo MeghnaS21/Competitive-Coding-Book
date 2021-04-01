@@ -11,24 +11,21 @@
 using namespace std;
 int main()
 {
-    //freopen("input.txt", "r", stdin);
-    //freopen("output.txt", "w", stdout);
+ #ifndef ONLINE_JUDGE
+    freopen("input.txt", "r", stdin);
+    freopen("output.txt", "w", stdout);
+ #endif
     std::ios::sync_with_stdio(false);
     cin.tie(0);
     cout.tie(0);
-    int n;
-    int val=0, val1=0;
-    cin>>n;
-    for(int i=1;i<=10;i++)
-    {
-        if(n%i==0)
-        {
-            val1=i;
-            if(val1>val)
-               val=val1;
-        }
-    }
-    cout<<val;
+    
+    /* 
+    
+    
+    CODE.....
+    
+    
+    */
     
     return 0;
 }
